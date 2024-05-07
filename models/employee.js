@@ -2,9 +2,9 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const Role = require('./role');
 
-class Employee extends Model {
-  static init(sequelize) {
-    return super.init(
+class Employee extends Model {}
+
+Employee.init(
       {
         id: {
           type: DataTypes.INTEGER,
@@ -26,8 +26,6 @@ class Employee extends Model {
         modelName: 'employees'
       }
     );
-  }
-}
 
 Employee.belongsTo(Role, { foreignKey: 'role_id' });
 

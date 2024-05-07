@@ -1,0 +1,15 @@
+[
+    { "name": "Susan Tree", "role_id": 3},
+    { "name": "Petra Green", "role_id": 4},
+    { "name": "Rachel MacToast", "role_id": 4},
+    { "name": "Dil Bert", "role_id": 4},
+    { "name": "Lan Gentry", "role_id": 4},
+    { "name": "Penelope Lou", "role_id": 8},
+    { "name": "Jake 'Snakey' Jake", "role_id": 9},
+    { "name": "Melvin Brown", "role_id": 10},
+    { "name": "Joe Schmoe", "role_id": 11},
+    { "name": "Moe Schmoe", "role_id": 11},
+    { "name": "Beaumont Schmoe", "role_id": 11},
+    { "name": "Godor Macoat", "role_id": 12},
+    { "name": "Steve?", "role_id": 13}
+]

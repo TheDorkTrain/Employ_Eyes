@@ -2,9 +2,9 @@ const { Model, DataTypes} = require('sequelize');
 const sequelize = require('../config/connection');
 
 
-class Department extends Model {
-static init(sequelize) {
-    return super.init(
+class Department extends Model {}
+
+Department.init(
       {
         id: {
           type: DataTypes.INTEGER,
@@ -23,5 +23,6 @@ static init(sequelize) {
         modelName: 'department'
       }
     );
-}}
+
+    
     module.exports = Department;
